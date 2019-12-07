@@ -10,6 +10,8 @@ Client
 - https://github.com/dennwc/dom
 - Investigate no/minimalscript (If minimal, easily readable and very small javascript, less than 400 lines total)
 - Investigate local storage options
+- Live WASM update, server sends signal, client quietly loads new wasm, removes old wasm, activates new wasm without page refresh
+- Hot config changes
 Shared
 - CGo
 - Posts
