@@ -1,0 +1,19 @@
+Server
+- Go
+- Template serve
+- DB
+- Generate/serve WASM
+- Generate/serve JS fallback
+- Imager/thumbnailer
+Client
+- (Tiny)Go
+- https://github.com/dennwc/dom
+- Investigate no/minimalscript (If minimal, easily readable and very small javascript, less than 400 lines total)
+- Investigate local storage options
+Shared
+- CGo
+- Posts
+- Config
+- Auth
+- Parser
+- Websockets
