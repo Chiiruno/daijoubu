@@ -378,7 +378,7 @@
 		"apply": "Применить",
 		"assignStaff": "Назначить модератора",
 		"ban": "Бан",
-		"bannerSpecs": "Возможно указать до 20 JPEG, PNG, GIF или WEBM файлов с максимальным разрешением 300×100, размером в 100 KB и без звука",
+		"bannerSpecs": "Accepts up to 20 JPEG, PNG, GIF, WEBP or WEBM files with maximum dimensions of 300x100, maximum file size of 100 KB and no sound.",
 		"by": "От",
 		"captcha": "Капча",
 		"changePassword": "Сменить пароль",
