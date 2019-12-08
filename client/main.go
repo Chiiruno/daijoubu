@@ -1,5 +1,7 @@
 package main
 
+import "github.com/gascore/dom/js"
+
 func main() {
-	println("hello world")
+	js.Call("alert", "test")
 }

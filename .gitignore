@@ -1,6 +1,6 @@
-.directory
-.vscode
 *.br
+*.directory
+*.vscode
 /*.log
 /*.pid
 /config.json
@@ -8,6 +8,8 @@
 /daijoubu.exe
 /node_modules
 /www/css
+/www/index.html
+/www/js
 /www/media/source
 /www/media/thumb
 /www/media/ui/banners/*
