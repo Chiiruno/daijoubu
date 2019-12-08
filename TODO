@@ -5,6 +5,7 @@ Server
 - Generate/serve WASM
 - Generate/serve JS fallback
 - Imager/thumbnailer
+- 0-RTT replay attack, use Early-Data header, send 425 for non-idempotent
 Client
 - (Tiny)Go
 - https://github.com/dennwc/dom

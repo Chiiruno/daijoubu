@@ -10,7 +10,7 @@ server:
 	go build -v -o daijoubu ./server/...
 
 client:
-	GOOS=js GOARCH=wasm go build -v -o www/wasm/main.wasm ./client/...
+	tinygo build -target wasm -o www/wasm/main.wasm ./client
 
 www:
 	git submodule update --init --recursive
