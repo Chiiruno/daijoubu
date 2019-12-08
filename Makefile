@@ -1,6 +1,3 @@
-# TODO: Remove this export when Go 1.14 lands.
-export GO111MODULE=auto
-
 .PHONY: server client www test
 
 all: server client www
