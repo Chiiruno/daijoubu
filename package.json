@@ -1,0 +1,20 @@
+{
+    "name": "daijoubu",
+    "version": "0.1.0",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Chiiruno/daijoubu"
+    },
+    "devDependencies": {
+        "jshint": "^2.10.3"
+    },
+    "dependencies": {
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-less": "^4.0.1"
+    },
+    "scripts": {
+        "gulp": "gulp"
+    }
+}

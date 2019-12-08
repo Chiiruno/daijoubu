@@ -12,6 +12,8 @@ client:
 www:
 	git submodule update --init --recursive
 	mkdir -p www/{css,media/{source,thumb,ui/{flags,videos}},wasm}
+	npm up --quiet
+	npm run --silent gulp -- -LL
 	ln -sf $(PWD)/external/flags/svg/*.svg www/media/ui/flags
 	brotli -f www/{css/*.css,lang/*/*.json,media/ui/{favicons/*.ico,flags/*.svg},wasm/*.wasm}
 
@@ -25,4 +27,4 @@ server_clean:
 	rm -f daijoubu daijoubu.exe
 
 www_clean:
-	rm -rf www/{css/*.css*,lang/*/*.br,media/ui/{favicons/*.br,flags/*.br},wasm/*.wasm*}
+	rm -rf www/{css/*.css*,lang/*/*.br,media/ui/{favicons/*.br,flags/*.br},wasm/*.wasm*} node_modules
