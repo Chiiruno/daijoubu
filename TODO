@@ -5,6 +5,7 @@ Server
 - Imager/thumbnailer
 - 0-RTT replay attack, use Early-Data header, send 425 for non-idempotent
 - Translate lang once stable
+- Try not to completely copy latcode
 Client
 - (Tiny)Go
 - Investigate no/minimalscript (If minimal, easily readable and very small javascript, less than 400 lines total)
