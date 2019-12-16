@@ -154,7 +154,7 @@
 		],
 		"image_root_override": [
 			"Image root override",
-			"If you wish to host images from a separate location like a CDN, enter the full root address here. Leave empty to use the default address. Example: 'https://images.meguca.org'"
+			"If you wish to host images from a separate location like a CDN, enter the full root address here. Leave empty to use the default address. Example: 'https://images.daijoubu.cf'"
 		],
 		"image_score": [
 			"Image spam score",

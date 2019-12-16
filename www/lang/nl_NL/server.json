@@ -154,7 +154,7 @@
 		],
 		"image_root_override": [
 			"Afbeelding root overschrijden",
-			"Als u afbeeldingen van een andere locatie zoals een CDN wilt hosten, voert u hier het volledige root-adres in. Laat leeg om het standaard adres te gebruiken. Voorbeeld: 'https://images.meguca.org' "
+			"Als u afbeeldingen van een andere locatie zoals een CDN wilt hosten, voert u hier het volledige root-adres in. Laat leeg om het standaard adres te gebruiken. Voorbeeld: 'https://images.daijoubu.cf' "
 		],
 		"image_score": [
 			"Afbeeldingen spam score",

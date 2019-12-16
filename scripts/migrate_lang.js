@@ -27,9 +27,11 @@ for (let t of targets) {
         }
 
     for (let f of fs.readdirSync(dir)) {
-        const path = `${dir}/${f}`
-        traverse(source, "_lang", readJSON(path))
-        fs.unlinkSync(path)
+        if (!f.endsWith(".br")) {
+            const path = `${dir}/${f}`
+            traverse(source, "_lang", readJSON(path))
+            fs.unlinkSync(path)
+        }
     }
 
     const dest = JSON.parse(JSON.stringify(en)) // Deep clone

@@ -154,7 +154,7 @@
 		],
 		"image_root_override": [
 			"圖片根目錄複寫",
-			"如果你希望將圖片託管於一個不同的位置，像是 CDN，輸入完整的根位置在這裡。留空以使用預設位置。範例：'https://images.meguca.org'"
+			"如果你希望將圖片託管於一個不同的位置，像是 CDN，輸入完整的根位置在這裡。留空以使用預設位置。範例：'https://images.daijoubu.cf'"
 		],
 		"image_score": [
 			"圖片濫發分數",
