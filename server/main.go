@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/Chiiruno/daijoubu/src/server/cache"
-	"github.com/Chiiruno/daijoubu/src/server/config"
-	"github.com/Chiiruno/daijoubu/src/server/db"
-	"github.com/Chiiruno/daijoubu/src/server/lang"
-	"github.com/Chiiruno/daijoubu/src/server/web"
+	"github.com/Chiiruno/daijoubu/server/cache"
+	"github.com/Chiiruno/daijoubu/server/config"
+	"github.com/Chiiruno/daijoubu/server/db"
+	"github.com/Chiiruno/daijoubu/server/lang"
+	"github.com/Chiiruno/daijoubu/server/web"
 )
 
 func main() {

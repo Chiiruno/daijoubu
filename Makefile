@@ -4,10 +4,10 @@ all: server client www
 clean: server_clean www_clean
 
 server:
-	go build -v -o daijoubu ./src/server
+	go build -v -o daijoubu ./server
 
 client:
-	tinygo build -target wasm -o www/wasm/main.wasm ./src/client
+	tinygo build -target wasm -o www/wasm/main.wasm ./client
 
 www:
 	git submodule update --init --recursive
@@ -19,10 +19,10 @@ www:
 	brotli -f www/{css/*.css,js/*.js,lang/*/*.json,media/ui/{favicons/*.ico,flags/*.svg},wasm/*.wasm}
 
 test:
-	go test --race ./src/...
+	go test --race ./...
 
 test_no_race:
-	go test ./src/...
+	go test ./...
 
 server_clean:
 	rm -f daijoubu daijoubu.exe
